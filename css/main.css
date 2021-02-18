@@ -671,6 +671,23 @@ SMALL SCREEN
 	/*	width: 400px;
 	height: 225px;*/
 }
+@media only screen and (max-width:1024px){
+	.marker {
+
+		/*	padding-bottom: 3700.3333px;
+		*/	text-align: center;
+		width: 100%;
+		font-size: 50px;
+		line-height: 50px;
+		font-weight: 600;
+		position: absolute;	/*font-variant: small-caps;	*/
+	
+		/*margin: 0 auto 3333.33333px auto;*/
+	
+		/*	width: 400px;
+		height: 225px;*/
+	}
+}
 
 .first.marker {
 
