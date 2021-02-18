@@ -163,6 +163,27 @@ body.loading .loader {
 }
 
 
+@media only screen and (max-width:1024px){
+	.loader div {
+		position: absolute;
+		margin: auto;
+		left: -460px;
+		top: 100px;
+		/*top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;*/
+		color: white;
+		display: block;
+		width: 300px;
+		height: 50px;
+		/*text-align: center;
+		font-variant: small-caps;
+		font-weight: 700;
+		letter-spacing: 3px;
+		font-size: 16px;*/
+	}
+}
 /* html color codes */
 /* #84142d
 #c02739
