@@ -137,9 +137,13 @@ body.loading[data-device='phone'].loaded .loader {
 body.loading .loader {
 	width: 100%;
 	height: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	background: white;
 	z-index: 99999999999999999;
-	position: fixed;
+	position: relative;
 }
 /* FIX LOADING POSITION HERE  */
 .loader div {
